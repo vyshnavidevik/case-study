@@ -1,0 +1,86 @@
+<html>
+	<head>
+			
+<style>
+			div {
+				box-sizing: border-box;
+				width: 50%;
+				border: 50px solid black;
+				float: left;
+				align-content: center;
+				align-items: center;
+			}
+
+			form {
+				margin: 0 auto;
+				width: 400px;
+			}
+		</style>
+		
+	</head>
+<body>
+		<h1 style="text-align: center;">REGISTRATION FORM</h1>
+		<form name="RegForm" action="/submit.php"
+			onsubmit="return GEEKFORGEEKS()" method="post">
+
+<p>Name: <input type="text"
+							size="65" name="fname" data-required-message="required field" required/></p><br />
+<p>Task Id: <input type="text"
+							size="65" name="taskid" data-required-message="required field" required/></p>
+			<br />
+			<p>Description: <input type="text"
+							size="65" name="description" data-required-message="required field" required/>
+		</p>
+			<br />
+			<p>Status: <input type="text"
+							size="65" name="status" data-required-message="required field" required/></p>
+			<br />
+			<p>Priority: <input type="text"
+						size="65" name="priority" data-required-message="required field" required/></p>
+			<br />
+			<p>Notes: <input type="text"
+						size="65" name="notes" data-required-message="required field" required/></p>
+			<br />
+
+<p>Bookmark: <input type="text"
+						size="65" name="bookmark" data-required-message="required field" required/></p>
+			<br />
+<p>Owner Id: <input type="text"
+						size="65" name="ownerid" data-required-message="required field" required/></p>
+			<br />
+<p>Creation on: <input type="text"
+						size="65" name="creationon" data-required-message="required field" required/></p>
+			<br />
+<p>Modified on: 
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="1990-01-01" max="2018-12-31"></p>
+</br>
+
+
+
+
+
+			<!--<p>
+				SELECT YOUR COURSE
+				<select type="text" value="" name="Subject">
+					<option>BTECH</option>
+					<option>BBA</option>
+					<option>BCA</option>
+					<option>B.COM</option>
+					<option>GEEKFORGEEKS</option>
+				</select>
+			</p>-->
+			<br />
+			<br />
+			<!--<p>Comments: <textarea cols="50"
+							name="Comment"> </textarea></p>-->
+			<p>
+				<input type="submit"
+					value="submit" name="Submit" />
+				<input type="reset"
+					value="Reset" name="Reset" />
+			</p>
+		</form>
+	</body>
+</html>
